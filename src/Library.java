@@ -8,6 +8,11 @@ public class Library {
         books = new ArrayList<>();
     }
 
+    public List<Book> getAllBooks() {
+        return new ArrayList<>(books); // Return a copy of the books list
+    }
+
+
     public void addBook(Book book) {
         books.add(book);
     }
