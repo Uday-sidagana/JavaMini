@@ -20,7 +20,7 @@ public class LibraryManagementSystem {
         // Main panel with a more vibrant background color
         JPanel mainPanel = new JPanel(new BorderLayout(10, 10));
         mainPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-        mainPanel.setBackground(new Color(245, 245, 245)); // Light gray background
+        mainPanel.setBackground(new Color(231, 231, 117)); // Light gray background
 
         // Text Area with a bit of styling
         JTextArea textArea = new JTextArea();
@@ -28,7 +28,7 @@ public class LibraryManagementSystem {
         textArea.setFont(new Font("SansSerif", Font.BOLD, 12));
         textArea.setForeground(new Color(33, 37, 41)); // Darker text for better readability
         JScrollPane scrollPane = new JScrollPane(textArea);
-        scrollPane.setBorder(BorderFactory.createLineBorder(new Color(100, 181, 246), 2)); // Blue border for the scroll pane
+        scrollPane.setBorder(BorderFactory.createLineBorder(new Color(255, 151, 75), 2)); // Blue border for the scroll pane
         mainPanel.add(scrollPane, BorderLayout.CENTER);
 
         // Control Panel for buttons with a complementary background color
@@ -40,7 +40,7 @@ public class LibraryManagementSystem {
         // Styling Buttons with vibrant colors and hover effects
         JButton checkoutButton = new JButton("Check Out");
         JButton returnButton = new JButton("Return");
-        styleButton(checkoutButton, new Color(77, 182, 172), new Color(38, 166, 154)); // Teal color scheme
+        styleButton(checkoutButton, new Color(0, 255, 52), new Color(38, 166, 154)); // Teal color scheme
         styleButton(returnButton, new Color(255, 87, 34), new Color(230, 74, 25)); // Deep orange color scheme
 
         // Adding Actions
