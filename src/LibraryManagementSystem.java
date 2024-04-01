@@ -13,7 +13,7 @@ public class LibraryManagementSystem {
     }
 
     private static void createAndShowGUI() {
-        JFrame frame = new JFrame("Library Management System");
+        JFrame frame = new JFrame("Library Management System(21BCS-7418,6480,4308)");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 400);
 
